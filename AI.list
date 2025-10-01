@@ -3,9 +3,9 @@
 # Last updated: 2025-10-01
 
 # > Ai general rules
-HOST,api.statsig.com
-HOST,browser-intake-datadoghq.com
-HOST,static.cloudflareinsights.com
+HOST-SUFFIX,api.statsig.com
+HOST-SUFFIX,browser-intake-datadoghq.com
+HOST-SUFFIX,static.cloudflareinsights.com
 HOST-SUFFIX,algolia.net
 HOST-SUFFIX,amazonaws.com
 HOST-SUFFIX,arkoselabs.com
@@ -27,7 +27,7 @@ HOST-SUFFIX,apple-relay.apple.com
 HOST-SUFFIX,apple-relay.cloudflare.com
 
 # > Anthropic/Claude
-HOST,cdn.usefathom.com
+HOST-SUFFIX,cdn.usefathom.com
 HOST-SUFFIX,anthropic.com
 HOST-SUFFIX,claude.ai
 HOST-SUFFIX,claudeusercontent.com
@@ -39,9 +39,9 @@ HOST-SUFFIX,cursor.sh
 HOST-SUFFIX,dify.ai
 
 # > Google AI (Gemini/Bard)
-HOST,ai.google
-HOST,ai.google.dev
-HOST,makersuite.google.com
+HOST-SUFFIX,ai.google
+HOST-SUFFIX,ai.google.dev
+HOST-SUFFIX,makersuite.google.com
 HOST-SUFFIX,aistudio.google.com
 HOST-SUFFIX,apis.google.com
 HOST-SUFFIX,bard.google.com
@@ -66,19 +66,19 @@ HOST-SUFFIX,meta.ai
 HOST-SUFFIX,meta.com
 
 # > Microsoft Copilot
-HOST,api.msn.com
-HOST,assets.msn.com
-HOST,copilot.microsoft.com
-HOST,gateway.bingviz.microsoft.net
-HOST,gateway.bingviz.microsoftapp.net
-HOST,in.appcenter.ms
-HOST,location.microsoft.com
-HOST,odc.officeapps.live.com
-HOST,r.bing.com
-HOST,self.events.data.microsoft.com
-HOST,services.bingapis.com
-HOST,sydney.bing.com
-HOST,www.bing.com
+HOST-SUFFIX,api.msn.com
+HOST-SUFFIX,assets.msn.com
+HOST-SUFFIX,copilot.microsoft.com
+HOST-SUFFIX,gateway.bingviz.microsoft.net
+HOST-SUFFIX,gateway.bingviz.microsoftapp.net
+HOST-SUFFIX,in.appcenter.ms
+HOST-SUFFIX,location.microsoft.com
+HOST-SUFFIX,odc.officeapps.live.com
+HOST-SUFFIX,r.bing.com
+HOST-SUFFIX,self.events.data.microsoft.com
+HOST-SUFFIX,services.bingapis.com
+HOST-SUFFIX,sydney.bing.com
+HOST-SUFFIX,www.bing.com
 HOST-SUFFIX,api.microsoftapp.net
 HOST-SUFFIX,bing-shopping.microsoft-falcon.io
 HOST-SUFFIX,edgeservices.bing.com
@@ -87,9 +87,9 @@ HOST-SUFFIX,edgeservices.bing.com
 HOST-SUFFIX,midjourney.com
 
 # > OpenAI/ChatGPT
-HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-HOST,openaicomproductionae4b.blob.core.windows.net
-HOST,production-openaicom-storage.azureedge.net
+HOST-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+HOST-SUFFIX,openaicomproductionae4b.blob.core.windows.net
+HOST-SUFFIX,production-openaicom-storage.azureedge.net
 HOST-SUFFIX,ai.com
 HOST-SUFFIX,azureedge.net
 HOST-SUFFIX,chatgpt.com
@@ -100,7 +100,7 @@ HOST-SUFFIX,oaiusercontent.com
 HOST-SUFFIX,openai.com
 
 # > Perplexity
-HOST,pplx-res.cloudinary.com
+HOST-SUFFIX,pplx-res.cloudinary.com
 HOST-SUFFIX,perplexity.ai
 HOST-SUFFIX,perplexity.com
 HOST-SUFFIX,pplx.ai
@@ -112,6 +112,4 @@ HOST-SUFFIX,poecdn.net
 # > xAI/Grok
 HOST-SUFFIX,grok.com
 HOST-SUFFIX,x.ai
-```
 
-这次的格式应该是完全正确的了。再次为之前的错误表示歉意！
