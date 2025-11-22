@@ -3,6 +3,7 @@
 host-keyword,twitter,ISP,via-interface=%TUN%
 host-keyword,twimg,ISP,via-interface=%TUN%
 host-keyword,google,ISP,via-interface=%TUN%
+#测试家庭ip落地
 host-suffix,ping0.cc,ISP,via-interface=%TUN%
 
 
