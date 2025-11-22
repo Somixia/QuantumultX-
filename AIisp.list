@@ -3,6 +3,8 @@
 host-keyword,twitter,ISP,via-interface=%TUN%
 host-keyword,twimg,ISP,via-interface=%TUN%
 host-keyword,google,ISP,via-interface=%TUN%
+host-suffix,ping0.cc,ISP,via-interface=%TUN%
+
 
 # > Ai general rules
 HOST,api.statsig.com,ISP, via-interface=%TUN%
@@ -114,3 +116,15 @@ HOST-SUFFIX,poecdn.net,ISP, via-interface=%TUN%
 # > xAI/Grok
 HOST-SUFFIX,grok.com,ISP, via-interface=%TUN%
 HOST-SUFFIX,x.ai,ISP, via-interface=%TUN%
+
+# > YouTube(域名后缀)
+host-suffix, googlevideo.com, ISP, via-interface=%TUN%
+host-suffix, withyoutube.com, ISP, via-interface=%TUN%
+host-suffix, youtu.be, ISP, via-interface=%TUN%
+host-suffix, youtube.com, ISP, via-interface=%TUN%
+host-suffix, youtubeeducation.com, ISP, via-interface=%TUN%
+host-suffix, youtubegaming.com, ISP, via-interface=%TUN%
+host-suffix, youtubekids.com, ISP, via-interface=%TUN%
+host-suffix, youtube-nocookie.com, ISP, via-interface=%TUN%
+host-suffix, yt.be, ISP, via-interface=%TUN%
+host-suffix, ytimg.com, ISP, via-interface=%TUN%
