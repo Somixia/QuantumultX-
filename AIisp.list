@@ -1,12 +1,12 @@
 
 # My
 
-#host-keyword,twitter,ISP,via-interface=%TUN%
+host-keyword,twitter,ISP,via-interface=%TUN%
 host-keyword,twimg,ISP,via-interface=%TUN%
 HOST-SUFFIX,x.com,ISP, via-interface=%TUN%
 #测试家庭ip落地
 host-suffix,ping0.cc,ISP,via-interface=%TUN%
-
+HOST-SUFFIX,googleapis.com, via-interface=%TUN%
 
 # > Ai general rules
 HOST,api.statsig.com,ISP, via-interface=%TUN%
