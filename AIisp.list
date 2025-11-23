@@ -1,7 +1,7 @@
 
 # My
 
-HOST-SUFFIX,googleapis.com, via-interface=%TUN%
+HOST-SUFFIX,googleapis.com,via-interface=%TUN%
 host-keyword,twitter,ISP,via-interface=%TUN%
 host-keyword,twimg,ISP,via-interface=%TUN%
 HOST-SUFFIX,x.com,ISP, via-interface=%TUN%
