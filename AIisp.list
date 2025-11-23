@@ -1,7 +1,7 @@
 
 # My
-host-keyword,google,ISP,via-interface=%TUN%
-host-keyword,twitter,ISP,via-interface=%TUN%
+
+#host-keyword,twitter,ISP,via-interface=%TUN%
 host-keyword,twimg,ISP,via-interface=%TUN%
 HOST-SUFFIX,x.com,ISP, via-interface=%TUN%
 #测试家庭ip落地
@@ -120,7 +120,7 @@ HOST-SUFFIX,grok.com,ISP, via-interface=%TUN%
 HOST-SUFFIX,x.ai,ISP, via-interface=%TUN%
 
 # > YouTube(域名后缀)
-host-suffix, googlevideo.com, ISP, via-interface=%TUN%
+#host-suffix, googlevideo.com, ISP, via-interface=%TUN%
 host-suffix, withyoutube.com, ISP, via-interface=%TUN%
 host-suffix, youtu.be, ISP, via-interface=%TUN%
 host-suffix, youtube.com, ISP, via-interface=%TUN%
